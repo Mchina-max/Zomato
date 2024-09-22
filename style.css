@@ -1,0 +1,229 @@
+body{
+    background-color: aquamarine;
+    color: white;
+}
+.head{
+    background-image: url(./assets/images/top-barner.webp);
+    background-size: cover;
+    height: calc(-30rem + 100vh);
+    width: 100%;
+    
+}
+.top{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.shortcuts{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+}
+
+.shortcuts > ul > li > a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+} 
+.top-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-logo > img{
+    
+    width: 300px;
+    height: 60px;
+    
+}
+
+#top-par{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.0rem;
+}
+
+.services{
+    background-color: inherit;
+    height: auto;
+    width: 1100px;
+    margin: 15px 241.50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-sub{
+    height: 260px;
+    width:350px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-right: 3px;
+    background-size: 350px 190px;
+    
+}
+.services-sub > img {
+    height: 180px ;
+    width: 350px ;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+
+}
+.collections{
+    background-color: inherit;
+    height: auto;
+    width: 1100px;
+    margin: 15px 241.50px;
+    color: black;
+}
+
+.collections-par{
+    display: flex;
+    justify-content: space-between;
+}
+
+.All-collection{
+    color: rgba(248, 126, 11, 0.959);
+    text-decoration: none;
+
+}
+.spots-main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+.spots{
+    width: 268px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-image: url(./assets/images/Newly-opened.webp);
+    background-size: contain;
+    color: white;
+    font-weight:lighter ;
+
+}
+.sub-container{
+    display: flex;
+}
+.intra-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.places{
+    background-color:inherit;
+    height: auto;
+    width: 1100px;
+    margin: 15px 241.50px;
+    color: black;
+}
+.container{
+    width: 356px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 5px auto; 
+}
+.social{
+    background-color: inherit;
+    height:auto;
+    width: auto;
+    margin: 15px 345px;
+    display: flex;
+}
+.explore{
+    background-color: inherit;
+    height: 780px;
+    width: auto;
+    margin: 15px 345px;
+    color: black;
+}
+
+.bottom{
+    background-color:inherit;
+    height: 300px;
+    width: auto;
+    margin: 15px 345px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.app > img {
+    height: 450px;
+    width: auto;
+    margin-left: 0;
+    margin-top: 5px;
+    
+
+}
+.social-text{
+    color: black;
+    width: auto;
+    height: 450px;
+
+
+}
+
+.Radio{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.Radio > label {
+    margin: 15px ;
+}
+.input{
+    display: flex;
+}
+.input > input{
+    height: 48px;
+    width: 292px;
+    margin-right: 5px;
+    border: 1px solid grey;
+    border-radius: 0.6rem;
+
+}
+
+.input >label > button{
+    color: white;
+    background-color: #EF4F5F;
+    border: none;padding: 3px;
+    border-radius: 0.6rem;
+    width: 150px;
+    height: 48px;
+    
+}
+.sub-explore{
+    border: 1px solid gray;
+    width: 1100px;
+    height:68px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.mini-sub{
+    display: flex;
+    justify-content: space-between;
+
+}
+h9{
+    font-size: larger;
+}
+
